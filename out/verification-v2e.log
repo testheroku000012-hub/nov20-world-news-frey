@@ -1,5 +1,0 @@
-PNG_CHECK: PASS valid PNG (1024, 1024), 206842 bytes
-SHA256: 134c61c79131cc41d57165ce7a234e6bcf2d38d8826d9e4452be1a66de24408a
-DETERMINISM: PASS two main.py runs byte-identical to held entry.png
-PIXEL_CHECK: PASS corners [(245, 240, 230), (245, 240, 230), (245, 240, 230), (245, 240, 230)]; pure-white pixels 0; non-cream edges [0, 0, 0, 0]
-SCOPE_CHECK: PASS exactly six changed SVG text nodes (3 city/deck pairs); pixel difference bbox (62, 873, 877, 930)
