@@ -1,0 +1,6 @@
+PNG_CHECK: PASS RGB (1024, 1024), 206875 bytes
+DETERMINISM: PASS two main.py runs byte-identical; SHA256 bb407c20ab9a9c570a8a54d78999da3de59c5226864d1450cbd52d2b7b622261
+PIXEL_CHECK: PASS corners [(245, 240, 230), (245, 240, 230), (245, 240, 230), (245, 240, 230)]; pure-white pixels 0; content bbox (37, 23, 987, 979); no content on edges
+SCOPE_CHECK: PASS exactly three changed SVG nodes [('11 · CULTURE', '11 · US'), ('GTA VI LAUNCH', 'PETE ROSE PARDONED'), ('Launch-day sales surge; zeitgeist takeover.', "Trump's posthumous pardon announced Thu Nov 19.")]; raster difference bbox (368, 660, 571, 690), confined to card 11
+DISTINCTNESS_AUDIT: PASS — 25 distinct numbered stories (v2e audit retained with 11 replaced by Pete Rose pardon; Fiona/Cincinnati is a separate event).
+MAP_PIN_11: unchanged center (732,590), checked inside NORTH AMERICA polygon by build.py.
